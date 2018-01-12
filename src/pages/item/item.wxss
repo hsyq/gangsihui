@@ -1,0 +1,77 @@
+/* pages/item/item.wxss */
+page {
+  display: block;  
+  min-height: 100%;  
+  background-color: #222; 
+  color:#fff;
+}
+.album_bg {
+  width: 580rpx;
+  height: 580rpx;
+  margin: 20rpx auto;
+  border-radius: 15rpx;
+  background: url("http://pic.qingting.fm/2017/0103/20170103153841368.jpg!200");
+  background-size: 580rpx;
+}
+
+.progress progress {
+  margin: 50rpx auto 0 auto;
+  width:650rpx; 
+}
+
+.time {
+  font-size: 30rpx;
+  color: #8d8d8d;
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx auto;
+
+}
+
+.song {
+  width: 600rpx;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.song .album_name1 {
+  font-size: 30rpx;
+  color:#8d8d8d;
+  margin-top:10rpx;
+}
+
+.play_btn {
+  width: 600rpx;
+  height: 100rpx;
+  margin: 40rpx auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 100rpx;
+}
+
+/* .play_btn button {
+  background: red;
+} */
+
+.play_btn text {
+  font-size:60rpx;
+}
+.play_btn .icon-play, .play_btn .icon-pause{
+  font-size: 100rpx;
+}
+
+.share {
+  width: 600rpx;
+  height: 150rpx;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 150rpx;
+}
+
+
+
+

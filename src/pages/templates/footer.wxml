@@ -1,0 +1,7 @@
+<template name="footer1">
+  底部模板1
+</template>
+
+<template name="footer2">
+  底部模板2 {{text}}
+</template>

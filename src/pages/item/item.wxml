@@ -1,0 +1,62 @@
+<!--pages/item/item.wxml-->
+<view> 
+<!-- <audio src="{{src}}" id="myAudio" poster="{{poster}}" name="{{name}}"
+author="{{author}}" hidden='true'></audio> -->
+
+
+  <!--背景：专辑封面  -->
+  <view class='album_bg'>
+    
+  </view>
+
+  <!--播放进度条  -->
+  <view class='progress'>
+     <slider bindchange="hanleSliderChange" bindtouchstart="handleSliderMoveStart" bindtouchend="handleSliderMoveEnd" min="0" max="{{sliderMax}}" activeColor="#8f7df0"
+      value="{{sliderValue}}"/>
+  </view>
+
+<!-- 进度条时间显示 -->
+  <view class="time">
+    <text class="current">{{current}}</text>
+    <text class='total'>{{total}}</text>
+  </view>
+
+  <!-- 曲目信息 -->
+  <view class='song'>
+  <text class='song_name'>张广泰回家(三)</text>
+  <text class="album_name1">全本张广泰回家</text>
+  </view>
+
+<!--播放按钮  -->
+ <view class='play_btn'>
+<!--后退30秒  -->
+  <!-- <button plain="false" size="mini">30s</button>   -->
+  <!--上一曲  -->
+  <!-- <button plain="false" size="mini">|</button>   -->
+  <!--播放/暂停  -->
+  <!-- <button plain="false" size="mini">播放</button>   -->
+  <!--下一曲  -->
+  <!-- <button plain="false" size="mini">>|</button>   -->
+  <!--前进30秒  -->
+  <!-- <button plain="false" size="mini">30s</button>   -->
+
+<!-- 后退30s -->
+  <text class="iconfont icon-houtui" bindtap='backSec' ></text>
+  <!-- 上一曲 -->
+  <text class="iconfont icon-prev" bindtap='lastAudio'></text>  
+  <!-- 暂停 -->  
+   <!-- <text class="iconfont icon-pause" bindtap="audioPause"></text>    -->
+  <!-- 播放 -->
+  <text class="iconfont {{playPauseBtn}}" bindtap='{{audioPlayPause}}'></text>  
+  <!-- 下一曲 -->
+  <text class="iconfont icon-xiayiqu" bindtap='listenerButtonGetPlayState'></text>   
+  <!-- 前进30s -->
+  <text class="iconfont icon-qianjin" bindtap='forwardSec'></text>
+  </view>
+
+<!-- 分享给好友 -->
+  <view class='share'>
+      <view class='share_btn'></view>
+       
+  </view>
+</view>

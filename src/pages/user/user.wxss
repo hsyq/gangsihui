@@ -1,0 +1,73 @@
+/* pages/user/user.wxss */
+
+.user_info {
+  width: 750rpx;
+  height: 300rpx;
+  background: -webkit-linear-gradient(#F84C47, #FC9C6E); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#F84C47, #FC9C6E); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#F84C47, #FC9C6E); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#F84C47, #FC9C6E); /* 标准的语法（必须放在最后） */
+
+}
+.user_info image {
+  width: 150rpx;
+  height: 150rpx;
+  background: yellow;
+  border-radius: 50%;
+  margin:75rpx 80rpx;
+}
+.user_info text {
+  display: block;
+  font-size: 50rpx;
+  margin-left: 260rpx;
+  margin-top:-200rpx;
+  
+
+}
+
+.node_title {
+  display: block;
+  height: 40rpx;
+  line-height: 40rpx;
+  /* margin-left:75rpx;  */
+  font-size: 35rpx;
+  font-family: "黑体";
+  
+}
+
+.collect, .history, .download{
+  width: 600rpx;
+  height: 180rpx;
+  margin: 20rpx auto;
+  border-bottom: 2rpx solid #eee;
+}
+
+.album {
+  display: flex;
+}
+.album_img {
+  width: 120rpx;
+  height: 120rpx;
+  background: green;
+  margin:10rpx;
+}
+.a_i_1 {
+  background-image: url(http://pic.qingting.fm/2016/1111/20161111192603510.jpg!200);
+  background-size: 120rpx 120rpx;
+}
+
+.album_name {
+  color:#404040;
+  padding-left: 10rpx;
+}
+
+.album_name text {
+  font-size: 25rpx;
+  display: block;
+  width: 400rpx;
+  height: 50rpx;
+  color:#a5a5a5;
+  line-height: 50rpx;
+}
+
+

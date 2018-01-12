@@ -1,0 +1,28 @@
+<!--pages/itemlist/itemlist.wxml-->
+<view class='container'>
+<!--专辑头像和简介  -->
+<view class="album_info">
+  <view class="album_img1"></view>
+  <view class="album_des">《坑王驾到》是由郭德纲联手爱奇艺出品的中国首档大型单口相声体验式综艺节目。</view>
+</view>
+<!--下载和收藏  -->
+<view class="down_favo">
+  <view class='download'>下载</view>
+  <view class="favo">收藏</view>
+</view>
+
+<!--区域分割线  -->
+<view class="hr"></view>
+
+<!--专辑列表  -->
+<view class='album_list'>
+  <text>节目列表(23)</text>
+  <view class='item' bindtap='itemClick'>包公来了（一）</view> 
+  <view class='item'>包公来了（二）</view>
+  <view class='item'>包公来了（三）</view>
+  <view class='item'>包公来了（四）</view>
+  <view class='item'>包公来了（五）</view>
+</view>
+
+
+</view>

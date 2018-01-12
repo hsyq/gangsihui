@@ -1,0 +1,83 @@
+/* pages/itemlist/itemlist.wxss */
+.album_info {
+  width: 600rpx;
+  height: 200rpx;
+  
+  display: flex;
+}
+
+.album_img1 {
+  width: 185rpx;
+  height: 185rpx;
+  
+  background-image: url("http://pic2.qiyipic.com/image/20160909/6b/d8/a_100031850_m_601_195_260.jpg");
+  background-size:185rpx 185rpx; 
+  border-radius: 15rpx;
+}
+
+.album_des {
+  font-size: 28rpx;
+  width: 365rpx;
+  height: 185rpx;
+  margin-left: 20rpx;
+}
+
+.down_favo {
+  width: 600rpx;
+  height: 100rpx;
+  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+ 
+}
+
+.down_favo view{
+  line-height: 65rpx;
+  border: 1rpx #AAA solid;
+  border-radius: 3rpx;
+  width: 270rpx;
+  height: 65rpx;
+}
+
+.down_favo .download {
+  margin-right: 10rpx;
+}
+.down_favo .favo {
+  margin-left:10rpx;
+  color:#fff;
+  background: #E6534F;
+}
+
+.hr {
+  width: 100%;
+  height: 10rpx;
+   border-bottom: 5rpx #eee solid;
+   margin-top: 10rpx;
+}
+
+.album_list {
+  width: 600rpx;
+  display: flex;
+  /* background-image: url(http://img3.imgtn.bdimg.com/it/u=2996164050,1842563035&fm=27&gp=0.jpg); */
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.album_list text {
+  display: block;
+  height: 30rpx;
+  color: #b3b3b3; 
+  font-size: 25rpx;
+  line-height: 30rpx;
+  margin: 15rpx;
+}
+
+.item {
+  width: 100%;
+  height: 110rpx;
+  line-height: 110rpx;
+    border-top: 2rpx solid #e5e5e5;
+}

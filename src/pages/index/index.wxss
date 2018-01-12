@@ -1,0 +1,72 @@
+/**index.wxss**/
+.container {
+  height: 100%;
+  background: #fff; 
+  font-size: 24rpx;
+  font-family: "Microsoft YaHei";
+  
+}
+
+.album {
+  width: 600rpx;
+  height: 100rpx;
+  margin: 0rpx auto;
+  background: white;
+  margin-top: 40rpx;
+  
+}
+.album_img {
+  width: 120rpx;
+  height: 120rpx;
+  /* background: red; */
+  background-size: 120rpx 120rpx;
+  margin:10rpx 0 10rpx 10rpx;
+  float: left;
+}
+
+.album_name {
+  padding-top: 10rpx;
+  float: left;
+  margin-left: 50rpx;
+  margin-top: 10rpx;
+
+}
+
+.a_i1{
+  background-image: url("http://pic2.qiyipic.com/image/20160909/6b/d8/a_100031850_m_601_195_260.jpg");
+}
+.a_i2{
+  background-image: url("http://pic.qingting.fm/2016/1111/20161111192603510.jpg!200");
+}
+.a_i3{
+  background-image: url("http://pic.qingting.fm/2016/1111/20161111193000710.jpg!200");
+}
+.a_i4{
+  background-image: url("http://pic.qingting.fm/2016/1111/2016111119282486.jpg!200");
+}
+.a_i5{
+  background-image: url("http://pic.qingting.fm/2017/0103/20170103153718369.jpg!200");
+}
+.a_i6{
+  background-image: url("http://pic.qingting.fm/2016/1111/20161111192645347.jpg!200");
+}
+
+.a_i7{
+  background-image: url("http://pic.qingting.fm/2016/1118/20161118201500359.jpg!200");
+}
+.a_n1,.a_n2,.a_n3,.a_n4,.a_n5,.a_n6,.a_n7 {
+  position: relative;
+}
+.album_name text{
+  display: block;
+  width: 400rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 50rpx;
+  left:0rpx;
+  font-size: 20rpx;
+  color:#a5a5a5;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

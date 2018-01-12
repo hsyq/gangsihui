@@ -1,0 +1,62 @@
+<!--index.wxml-->
+
+<!--专辑列表-->
+<view class="container">
+   <!-- 坑王驾到 -->
+   <view class="album" bindtap='kwjdClick'>
+      <view class="album_img a_i1"></view>
+      <view class="album_name a_n1">坑王驾到
+      <text>《坑王驾到》是由郭德纲联手爱奇艺出品的中国首档大型单口相声体验式综艺节目。</text>
+      </view>
+   </view>
+
+   <!-- 郭德纲于谦精品 -->
+   <view class="album" bindtap='gdgyqClick'>
+      <view class="album_img a_i2"></view>
+      <view class="album_name a_n2">郭德纲于谦精品
+      <text>郭德纲于谦经典对口相声，包含"我字""你字"系列等精品相声作品。</text>
+      </view>
+   </view>
+
+   <!-- 郭德纲精品单口 -->
+   <view class="album" bindtap='gdgdkClick'>
+      <view class="album_img a_i3"></view>
+      <view class="album_name a_n3">郭德纲精品单口
+       <text>郭德纲经典单口相声，包含民国奇案、鬼怪斗法等。</text>
+      </view>
+   </view>
+
+   <!-- 今古奇观 -->
+   <view class="album" bindtap='jgqgClick'>
+      <view class="album_img a_i4"></view>
+      <view class="album_name a_n4">今古奇观
+        <text>《今古奇观》是以中国传统名著《三言二拍》故事为原型进行演绎，全部由郭德纲亲自表演的大型系列剧。杜十娘怒沉百宝箱、金玉奴棒打薄情郎……这些老百姓耳熟能详的经典故事如今被重新表述，郭德纲再次掀起民间故事高峰。</text>
+      </view>
+   </view>
+
+   <!-- 德云社精品 -->
+   <view class="album" bindtap='dysClick'>
+      <view class="album_img a_i5"></view>
+      <view class="album_name a_n5">德云社精品
+        <text>德云社21载披荆斩棘砥砺前行，培养了大批优秀的青年相声表演艺术家，如郭麒麟、岳云鹏、张云雷等等。</text>
+      </view>
+   </view>
+
+   <!-- 岳云鹏孙越 -->
+   <view class="album" bindtap='dysClick'>
+      <view class="album_img a_i6"></view>
+      <view class="album_name a_n6">岳云鹏孙越德云社精品
+        <text>岳云鹏在小剧场打拼树载，基础扎实尤善学唱，树立了自己别具风味的表演风格，和孙越搭档，火爆全国。</text>
+      </view>
+   </view>
+
+   <!-- 刘宝瑞 -->
+   <view class="album" bindtap='dysClick'>
+      <view class="album_img a_i7"></view>
+      <view class="album_name a_n7">刘宝瑞
+        <text>刘宝瑞的相声作品借鉴吸收了独角戏、评话、电影、戏剧等姐妹艺术的优点，大胆革新创造，形成了声、容、情、神兼备的独特艺术风格。尤以单口相声见长，被誉为“单口大王”。</text>
+      </view>
+   </view>
+
+   
+</view>

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/item/item",
+   
+    "pages/itemlist/itemlist",
+    "pages/user/user",
+    "pages/logs/logs"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "纲丝会",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#EB0F2B",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "相声"
+      },
+     {
+      "pagePath": "pages/item/item",
+      "text": "bofang"
+    },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+      
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "debug": true
+}

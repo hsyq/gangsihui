@@ -3,9 +3,9 @@ var router = express.Router();
 
 router.get('/', function(req, res, next) {
   if(req.session.login){
-    res.render('index');
+    res.redirect('/admin');
   }else{
-    res.redirect('/login');
+    res.redirect('/admin/login');
   }
 });
 

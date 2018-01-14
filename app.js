@@ -28,9 +28,9 @@ app.use(cookieParser());
 app.use(session({
   secret:'lilt',
   cookie:{maxAge:60 * 1000 *30},
-  store: new MongoStore({
+ /* store: new MongoStore({
     url:'mongodb://localhost:27017/gangsihui'
-  }),
+  }),*/
   resave:false,
   saveUninitialized:true
 }));
@@ -39,7 +39,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/admin', admin);
-app.use('/login', admin);
 app.use('/user', user);
 app.use('/audios', audio);
 app.use('/albums', album);
